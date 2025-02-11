@@ -9,9 +9,7 @@ Dokumentasi ini membahas tiga properti penting dalam CSS yang digunakan untuk me
 - **Z-Index**: Mengontrol tumpukan elemen.
 - **Transform**: Memungkinkan manipulasi elemen seperti rotasi, skala, dan translasi.
 
----
-
-## 🏗️ **1. CSS Position**
+### 🏗️ **1. CSS Position**
 Properti `position` menentukan metode penentuan posisi elemen dalam dokumen. Berikut adalah jenis-jenisnya:
 
 | Jenis Position | Deskripsi |
@@ -22,16 +20,12 @@ Properti `position` menentukan metode penentuan posisi elemen dalam dokumen. Ber
 | `fixed`       | Tetap di tempat, tidak terpengaruh oleh scroll. |
 | `sticky`      | Kombinasi `relative` dan `fixed`, mengikuti scroll hingga batas tertentu. |
 
----
-
-## 🔢 **2. Z-Index (Layering Elemen)**
+### 🔢 **2. Z-Index (Layering Elemen)**
 Properti `z-index` digunakan untuk mengontrol tumpukan elemen. Nilai lebih tinggi berarti elemen akan muncul di atas elemen dengan nilai lebih rendah.
 
 **Catatan:** `z-index` hanya berfungsi jika elemen memiliki `position` selain `static`.
 
----
-
-## 🔄 **3. CSS Transform**
+### 🔄 **3. CSS Transform**
 Properti `transform` memungkinkan kita mengubah tampilan elemen seperti rotasi, skala, dan translasi.
 
 | Fungsi | Deskripsi |
